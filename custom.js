@@ -1,3 +1,5 @@
+import 'jquery';
+
 $(document).ready(function () {
   touchDevices();
   navigationMenus();
