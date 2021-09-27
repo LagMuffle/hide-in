@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-$(document).ready(function () {
+$(function () {
   touchDevices();
   navigationMenus();
   slider();
@@ -12,7 +12,7 @@ $(document).ready(function () {
   $(window).trigger('resize');
 });
 
-$(window).resize(function () {
+$(window).on('resize', function () {
   const headerHeight = $('.header').outerHeight();
   const mainHeight = $(window).height() - headerHeight;
 
