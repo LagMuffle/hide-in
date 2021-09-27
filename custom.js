@@ -1,4 +1,4 @@
-import 'jquery';
+import $ from 'jquery';
 
 $(document).ready(function () {
   touchDevices();
